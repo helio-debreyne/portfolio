@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo&display=swap');
+
+body {
+    background-image: url(../img/fond3.jpg);
+    background-attachment: fixed;
+}
+
+header {
+    font-family:'arial',cursive;
+    text-align: center;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    height:15%;	
+    margin-top:5%;
+}
+
+p a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 6px 8px;
+    text-decoration: none;
+    font-size: 250%;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.bouton {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 25px;
+    text-shadow:rgb(0, 0, 0);
+    background-color: rgb(103, 207, 255);
+    font-family:'arial';
+    border-radius:5px;
+    box-shadow: 2px 2px 2px 1px black;
+}
+  
+.bouton a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.img-nrml1 {
+    text-align: center;
+    background-image:url(../img/acceuil-video.png);
+    background-size: cover;
+    border-radius: 20px;
+    height: 400px;
+    box-shadow: 1px 1px 2px 1px black;
+    background-attachment: fixed;
+}
+
+.img-nrml2 {
+    text-align: center;
+    background-image:url(../img/comédie-française.png);
+    background-size: cover;
+    border-radius: 30px;
+    height: 400px;
+    box-shadow: 1px 1px 2px 1px black;
+    background-attachment: fixed;
+}
+
+.img-nrml3 {
+    text-align: center;
+    background-image:url(../img/science-fiction.png);
+    background-size: cover;
+    border-radius: 20px;
+    height: 400px;
+    box-shadow: 1px 1px 2px 1px black;    
+    background-attachment: fixed;
+}
+
+.droit {
+    color: white;
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.liens {
+    width: 40%;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px 3px black;
+    margin-top: 50%;
+}
+
+.titre {
+    color: white;
+    font-family: 'Bowlby One SC', cursive;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.les-antilles {
+    color:black;
+    display:flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 1px black;
+    font-size: 15px;
+    height: 50%;
+    font-family: 'Pacifico', sans-serif ,cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer{
+    display:flex;
+    justify-content:space-between;
+    height:15%;	
+    margin-top:5%;
+    background-image: url(../img/fonds-footer1.jpg);
+    border-radius: 10px;   
+    background-attachment: fixed;	
+    box-shadow: 1px 1px 2px 1px black;
+        
+}
+
+.reseaux{
+    width:10%;
+}
+
+.text-fin{
+    list-style-type: none;
+}
+
+.titre2{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0); 
+    font-family: 'Baloo', cursive;
+    font-size: 50px;
+}
+
+.html1{
+    background-image:url(../img/video-html.png);
+    background-size: cover;
+    border-radius: 20px;
+    height: 400px;
+    box-shadow: 1px 1px 2px 1px black;
+    background-attachment: fixed;
+}
+
+.html2{
+    background-image:url(../img/video-html-CF.png);
+    background-size: cover;
+    border-radius: 20px;
+    height: 400px;
+    box-shadow: 1px 1px 2px 1px black;
+    background-attachment: fixed;
+}
+
+.html3{
+    background-image:url(../img/video-html-SF.png);
+    background-size: cover;
+    border-radius: 20px;
+    height: 400px;
+    box-shadow: 1px 1px 2px 1px black;
+    background-attachment: fixed;
+}

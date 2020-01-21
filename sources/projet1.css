@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Bellefair|Comfortaa|Satisfy|Slabo+27px|Vidaloka');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+body{
+    background-image:url(../img/fond2.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+h1{
+    text-align:center;
+	font-family: 'Fredoka One', cursive;
+    letter-spacing:5px;	
+}
+
+.flex{
+    display:flex;	
+}
+
+.button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+    background-color: rgb(230, 32, 32);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, .2),  rgba(0, 0, 0, .2) 30%,  rgba(0, 0, 0, 0));
+    font-weight:bold; 
+    position: absolute; 				
+}
+
+#container {
+	width: auto;
+	max-width: 600px;
+	height: 350px;
+	margin: 5em auto;
+	overflow: hidden;
+	position: relative;
+}
+
+#container img {
+	width: 100%;
+	height: 100%;
+	margin-bottom: -5px;
+	transition: all 0.3s ease-out;
+	position: relative;
+	z-index: 2;
+}
+
+#container:hover img {
+	transform: scale(1.2, 1.2);
+	z-index: 9;
+}
+
+.box-text1 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+    background-image: url(../img/acceuil-app.png);
+	transition: 0.3s linear;
+	font-family: 'Bellefair', serif;
+    font-family: 'Satisfy', cursive;
+	text-shadow: 2px 2px 2px #333;
+	
+}
+
+.box-text1 h1 {
+	font-size: 2.2em;
+	font-family: 'Bellefair', serif;
+    font-family: 'Comfortaa', cursive;
+}
+
+.box-text1 p {
+    font-size: 1.5em;
+}
+
+.box-text1:hover{
+    opacity: 0;
+}
+
+.box-text2 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+    background-image: url(../img/snapchat.png);
+	transition: 0.3s linear;
+	font-family: 'Bellefair', serif;
+    font-family: 'Satisfy', cursive;
+	text-shadow: 2px 2px 2px #333;
+}
+
+.box-text2 h1 {
+	font-size: 2.2em;
+	font-family: 'Bellefair', serif;
+    font-family: 'Comfortaa', cursive;
+}
+
+.box-text2 p {
+    font-size: 1.5em;
+}
+
+.box-text2:hover{
+    opacity: 0;
+}
+
+.box-text3 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+    background-image: url(../img/instagram.png);
+	transition: 0.3s linear;
+	font-family: 'Bellefair', serif;
+    font-family: 'Satisfy', cursive;
+	text-shadow: 2px 2px 2px #333;
+	
+}
+
+.box-text3 h1 {
+	font-size: 2.2em;
+	font-family: 'Bellefair', serif;
+    font-family: 'Comfortaa', cursive;
+}
+
+.box-text3 p {
+    font-size: 1.5em;
+}
+
+.box-text3:hover{
+    opacity: 0;
+}
+
+.box-text4 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+    background-image: url(../img/spotify.png);
+	transition: 0.3s linear;
+	font-family: 'Bellefair', serif;
+    font-family: 'Satisfy', cursive;
+	text-shadow: 2px 2px 2px #333;
+	
+}
+
+.box-text4 h1 {
+	font-size: 2.2em;
+	font-family: 'Bellefair', serif;
+    font-family: 'Comfortaa', cursive;
+}
+
+.box-text4 p {
+    font-size: 1.5em;
+}
+
+.box-text4:hover{
+    opacity: 0;
+}
+
+.titre2{
+	font-family: 'Fredoka One', cursive;
+	letter-spacing: 5px;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 5px;
+	position: relative;
+	
+}
